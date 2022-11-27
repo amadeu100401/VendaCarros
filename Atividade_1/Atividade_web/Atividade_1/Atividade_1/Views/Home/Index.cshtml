@@ -1,14 +1,19 @@
 ﻿@{
-    ViewData["Title"] = "Atividade 1";
+    ViewData["Title"] = "AutoVendas Seu Site de vendas de automóveis";
 }
 <head>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<div class="text-center">
-    <h1>Selecione a atividade:</h1>
-    <ul class="list">
-        <li><a class="navbar-brand" asp-area="" asp-controller="Form1" asp-action="Index" target="_self">Formulário 1</a></li>
-        <li><a class="navbar-brand" asp-area="" asp-controller="Form2" asp-action="Index" target="_self">Formulário 2</a></li>
-        <li><a class="navbar-brand" asp-area="" asp-controller="Form3" asp-action="Index" target="_self">Formulário 3</a></li>
-    </ul>
+
+<section class="py-5 text-center container">
+<div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+    <h1 class="fw-light">AutoVendas - Compra e vendas de carros</h1>
+    <p class="lead text-muted">Escolha a melhor opção que atenda a sua nescessidade.</p>
+    <p>
+        <a class="navbar-brand btn btn-primary my-2" asp-area="" asp-controller="Form1" asp-action="Index" target="_self">Compra</a>
+                <a class="navbar-brand btn btn-primary my-2" asp-area="" asp-controller="Form1" asp-action="Index" target="_self">Vendas</a>
+    </p>
+    </div>
 </div>
+</section>  
