@@ -21,6 +21,30 @@ namespace Atividade1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Atividade_1.Models.Carro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Ano")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(4)");
+
+                    b.Property<string>("Modelo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<bool>("Usado")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carros");
+                });
+
             modelBuilder.Entity("Atividade_1.Models.Cliente", b =>
                 {
                     b.Property<int>("Id")
