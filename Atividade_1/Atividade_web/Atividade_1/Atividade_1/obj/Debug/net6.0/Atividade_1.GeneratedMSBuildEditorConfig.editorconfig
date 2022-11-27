@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\download\Curso Oracle\Faculdade\PW\VendaCarros\Atividade_1\Atividade_web\Atividade_1\Atividade_1
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/download/Curso Oracle/Faculdade/PW/VendaCarros/Atividade_1/Atividade_web/Atividade_1/Atividade_1/Views/Form1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybTFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

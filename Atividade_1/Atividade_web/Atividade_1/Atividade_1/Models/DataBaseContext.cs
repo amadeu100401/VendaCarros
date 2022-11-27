@@ -9,5 +9,6 @@ namespace Atividade_1.Models
         }
 
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Carro> Carros { get; set; }
     }
 }
