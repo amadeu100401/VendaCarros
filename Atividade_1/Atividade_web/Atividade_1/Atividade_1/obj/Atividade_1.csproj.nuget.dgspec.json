@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\download\\Curso Oracle\\Faculdade\\PW\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj": {}
+    "C:\\Users\\paulo\\Source\\Repos\\VendaCarros\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj": {}
   },
   "projects": {
-    "D:\\download\\Curso Oracle\\Faculdade\\PW\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj": {
+    "C:\\Users\\paulo\\Source\\Repos\\VendaCarros\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\download\\Curso Oracle\\Faculdade\\PW\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj",
+        "projectUniqueName": "C:\\Users\\paulo\\Source\\Repos\\VendaCarros\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj",
         "projectName": "Atividade_1",
-        "projectPath": "D:\\download\\Curso Oracle\\Faculdade\\PW\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj",
-        "packagesPath": "C:\\Users\\amade\\.nuget\\packages\\",
-        "outputPath": "D:\\download\\Curso Oracle\\Faculdade\\PW\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\obj\\",
+        "projectPath": "C:\\Users\\paulo\\Source\\Repos\\VendaCarros\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\Atividade_1.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo\\Source\\Repos\\VendaCarros\\Atividade_1\\Atividade_web\\Atividade_1\\Atividade_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,23 +39,36 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
