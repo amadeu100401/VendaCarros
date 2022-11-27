@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Formulário 2";
+}
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<div class="text-center">
+    <h1>Formulário 2</h1>
+</div>
+
+<div class="">
+    <div class="bg-warning text-dark"><h4>SISTEMA DE GESTÃO ACADEMICA</h4></div>
+    <div>
+        <h6>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h6>
+    </div>
+    <form class="needs-validation">
+        <div class="mb-3 w-25">
+            <label class="form-label">Login</label>
+            <input class="form-control" placeholder="Informe seu login" type="text" required />
+        </div>
+
+        <div class="mb-3 w-25">
+            <label class="form-label">Senha</label>
+            <input class="form-control" placeholder="Informe sua senha" type="password" aria-describedby="emailHelp" required />
+        </div>
+
+        <div class="mb-3 w-25">
+            <label for="disabledSelect" class="form-label">Status</label>
+            <select class="form-select" required>
+                <option>Ativo</option>
+                <option>Inativo</option>
+            </select>
+        </div>
+
+        <div class="mb-3 w-25" required>
+            <label>Tipo</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" name="flexRadioDefault" type="radio" id="inlineCheckbox1" value="Tecnico">
+                <label class="form-check-label" for="inlineCheckbox1">Tecnico</label>
+            </div>
+
+            <div class=" form-check form-check-inline">
+                <input class="form-check-input" name="flexRadioDefault"  type="radio" id="inlineCheckbox1" value="Professor">
+                <label class="form-check-label" name="flexRadioDefault"  for="inlineCheckbox1">Professor</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" name="flexRadioDefault" type="radio" id="inlineCheckbox1" value="Aluno">
+                <label class="form-check-label" for="inlineCheckbox1">Aluno</label>
+            </div>
+        </div>
+
+        <div class="mb-3 w-25" required>
+            <label class="form-label">Data Criação</label>
+            <input class="form-control" type="date" required />
+        </div>
+
+        <div class="mb-3 w-25" required>
+            <label>Perfil</label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" name="Perfil" type="radio" id="inlineCheckbox1" value="Convidado">
+                <label class="form-check-label" for="inlineCheckbox1">Tecnico</label>
+            </div>
+
+            <div class=" form-check form-check-inline">
+                <input class="form-check-input" name="Perfil"  type="radio" id="inlineCheckbox1" value="Professor">
+                <label class="form-check-label" for="inlineCheckbox1">Professor</label>
+            </div>
+        </div>
+
+        <label class="form-label">Modulos</label>
+        <div class="mb-3 w-25">
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Compras">
+                <label class="form-check-label" for="inlineCheckbox1">Compras</label>
+            </div>
+
+            <div class=" form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Biblioteca">
+                <label class="form-check-label" for="inlineCheckbox1">Biblioteca</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Academico">
+                <label class="form-check-label" for="inlineCheckbox1">Academico</label>
+            </div>
+
+            <div class=" form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Documentação">
+                <label class="form-check-label" for="inlineCheckbox1">Documentação</label>
+            </div>
+
+            <div class=" form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Recursos Humanos">
+                <label class="form-check-label" for="inlineCheckbox1">Recursos Humanos</label>
+            </div>
+
+        </div>
+
+        <div class="form-floating w-35 ">
+            <textarea class="form-control" placeholder="Observações" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Observações</label>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="reset" class="btn btn-danger">Excluir</button>
+    </form>
+</div>
